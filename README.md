@@ -60,6 +60,45 @@ Testing the webserver.
 </body>
 </html>
 """
+<html>
+     <title> kim </title> 
+<body>
+      <table border="2"> 
+     <caption> Top five Revenue Generating Software Companies </caption>
+     <tr>
+              <th> S.No </th>
+              <th>Company</th>
+              <th>Revenue</th>
+      </tr>
+      <tr>
+              <th>1</th>
+               <td>Microsoft</td>
+              <td>65 Billion</td>
+      </tr>
+      <tr>
+              <th> 2</th>
+              <td> Oracle</td>
+              <td> 29.6 Billion</td>
+       </tr>
+      <tr>
+              <th>3</th>
+              <td>IBM</td>
+              <td>29.1 Billion </td>
+      </tr>
+      <tr>
+               <th>4</th>
+               <td>SAP</td>
+                <td>6.4 Billion</td>
+      </tr>
+      <tr>
+              <th>5</th>
+              <td>Symantec</td>
+              <td>5.6 Billion </td>
+       </tr>
+ </table>
+</body>
+</html>
+```
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
         print("request received")
